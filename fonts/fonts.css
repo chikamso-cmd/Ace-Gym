@@ -1,0 +1,10 @@
+ fonts used 
+    {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Playfair Display', serif;
+    }
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,600&display=swap');
