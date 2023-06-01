@@ -335,6 +335,16 @@ font-weight: 100;
     top: 5em;
   }
 }
+@media screen and (max-width: 584px) {
+  .expert{
+  margin-left: 0;
+  width: 100%;
+    }
+    .social{
+     width: 100%;
+     font-size: .6em;
+    }
+  }
 @media screen and (max-width: 425px) {
   .rated-cont{
     width: 100%;
@@ -414,8 +424,12 @@ font-weight: 100;
     left: 0;
     padding: 5px;
   }
+  .links h3{
+    font-size: .7em;
+  }
   
 }
+
 @media screen and (max-width: 375px) {
   .tryus-cont h2 {
     font-size: .8em;

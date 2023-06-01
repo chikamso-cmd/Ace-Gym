@@ -134,7 +134,7 @@ nav {
   text-transform: capitalize;
   width: 10em;
   margin: 7px;
-  left: 43%;
+  left: 40%;
   position: absolute;
   color: #000000;
   text-decoration: none;
@@ -174,7 +174,7 @@ nav {
 } */
 .cont-text a:hover {
   font-size: 2em;
-  left: 38%;
+   left: 36%; 
 }
 #main {
   width: 100%;
@@ -539,7 +539,7 @@ background-size: cover;
 background-image: linear-gradient(#ffffffb2, #ffffffaf), url('images/logo1\ \(2\).png');
 }
 .rated-cont{
-  width: 60%;
+  width: 90%;
   margin-inline: auto;
   /* text-align: center; */
   position: relative;
@@ -611,7 +611,7 @@ footer{
 }
 .links{
   position: relative;
-  width: 38%;
+  width: 100%
   /* margin: 10px; */
   /* background-color: red; */
 }
@@ -635,7 +635,8 @@ text-decoration: underline;
   /* background-color: red; */
   margin: 10px;
   position: relative;
-  width: 30%;
+  width: 100%;
+  /* background-color: red; */
 }
 address{
   margin: 10px;
@@ -648,6 +649,15 @@ address{
   position: relative;
   margin: 10px;
   padding: 5px;
+  width: 60%;
+  /* background-color: red; */
+}
+.social i {
+  margin: 10px;
+  cursor: pointer;
+}
+.contact i{
+  margin-right: 6px;
 }
 .copywrite{
 display: flex;
