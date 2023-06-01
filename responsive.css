@@ -211,6 +211,21 @@ font-weight: 100;
     top: 16.6em;
     left: 11em;
   }
+  .links{
+    width: 49%;
+  }
+  .links h3{
+    font-size: 1.2rem;
+  }
+  .links a{
+    font-size: .7rem;
+  }
+  .contact{
+    width: 40%;
+  }
+  address{
+    font-size: .8rem;
+  }
 }
 @media screen and (max-width: 600px) {
   .header-content {
@@ -373,6 +388,10 @@ font-weight: 100;
   }
   .testimonial {
     padding-bottom: 3em;
+  }
+  .testimonial h2{
+    font-size: 2em;
+    text-align: center;
   }
   .tryus-cont {
     width: 100%;
@@ -539,6 +558,43 @@ font-weight: 100;
     width: 100%;
     padding: 0;
     margin: 0;
-    height: 100%;
+    /* height: 100%; */
+    text-align: center;
+  }
+  .test-cont{
+    text-align: center;
+    margin-left: 4rem;
+    width: 60%;
+  }
+  .test-cont h2{
+    font-size: 1.5em;
+    margin: 0;
+    padding-top: 1rem;
+  }
+  .expert-cont a{
+    font-size: .7rem;
+  }
+  .copywrite{
+    width: 100%;
+    /* background-color: var(--big-text-color); */
+    
+  }
+  .links h3{
+    font-size: .8rem;
+  }
+  address{
+    font-size: .7rem;
+  }
+  .copywrite p{
+    font-size: .6rem;
+  }
+  .copywrite a{
+    font-size: .6rem;
+  }
+  .social{
+    display: block;
+  }
+  .terms{
+    display: flex;
   }
 }

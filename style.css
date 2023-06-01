@@ -264,7 +264,6 @@ nav {
     ),
     url(images/cycle.jpg);
 }
-
 .test-cont {
   position: relative;
   width: 50%;
@@ -273,13 +272,14 @@ nav {
 }
 .test-cont h2 {
   text-transform: uppercase;
+   font-size: 2.5em;
 }
 marquee {
   text-transform: capitalize;
   color: #111;
 }
 .card {
-  width: 47.3%;
+  width: 59%;
   position: relative;
   display: flex;
   gap: 10px;
@@ -380,7 +380,7 @@ margin-inline: auto;
   padding-bottom: 30px;
 }
 .info h2 {
-  font-size: 3em;
+  font-size: 2.5em;
   text-transform: uppercase;
   padding: 10px;
 }
@@ -448,16 +448,17 @@ margin-inline: auto;
   opacity: 0.4;
 }
 #trainers{
-background-image: radial-gradient(var(--top-color), var(--top-color)),url('images/girl\ with\ dumbell.jpg');
+background-image: radial-gradient(#fff, #fff);
 position: relative;
 max-width: 100vw;
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 color: #ffffff;
+padding-bottom: 2rem;
 }
 #trainers h3{
-  font-size: 4em;
+  font-size: 2em;
   text-transform: uppercase;
   padding: 5px;
   text-align: center;
@@ -485,6 +486,7 @@ padding: 5px;
   border-radius: 3px;
   position: relative;
   cursor: pointer;
+  box-shadow: 2px 2px 5px 5px #00000030;
 }
 .trainers-col img{
   width: 300px;
@@ -529,10 +531,12 @@ text-align: center;
   left: 4em;
 }
 #rated{
-width: 100%;
-position: relative;
-background-color: #ffffff;
-/* background-color: var(--top-color); */
+max-width: 100%;
+position: static;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-image: linear-gradient(#ffffffb2, #ffffffaf), url('images/logo1\ \(2\).png');
 }
 .rated-cont{
   width: 60%;
@@ -545,11 +549,11 @@ background-color: #ffffff;
   text-align: center;
   padding: 10px;
   text-transform: uppercase;
-  font-size: 2em;
+  font-size: 2.5em;
   font-family: "Inria Sans", sans-serif;
 }
 div span{
-  font-size: .8em;
+  font-size: .7em;
 }
 .rated-cont p{
   font-weight: 600;
@@ -563,7 +567,7 @@ div span{
   gap: 10px;
   margin: 10px;
   width: 60%;
-  background-color: var(--big-text-color2);
+  background-color: var(--big-text-color);
   justify-content: center;
   align-items: baseline;
   padding: 15px;
@@ -577,7 +581,7 @@ input:checked{
 .expert-cont h3{
 text-transform: capitalize;
 /* font-family: "Inria Sans", sans-serif; */
-font-size: 1.4em;
+font-size: 1.5em;
 /* text-align: center; */
 }
 .expert-cont a{
@@ -593,10 +597,78 @@ font-size: 1.4em;
 footer{
   width: 100%;
   background-color: #111;
-  height: 20vh;
-  color: #111;
+  color: #ffffff;
+  margin-inline: auto;
+}
+.footer-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  width: 100%;
+  position: relative;
+  /* margin-inline: auto; */
+}
+.links{
+  position: relative;
+  width: 38%;
+  /* margin: 10px; */
+  /* background-color: red; */
+}
+.links h3{
+font-size: 1.5em;
+text-transform: capitalize;
+/* background-color: ; */
+margin: 10px;
+text-decoration: underline;
+}
+.links a{
+  color: #fff;
+  text-transform: capitalize;
+  text-decoration: none;
+  margin: 3px;
+}
+.links a:hover{
+  color: var(--big-text-color);
+}
+.contact{
+  /* background-color: red; */
+  margin: 10px;
+  position: relative;
+  width: 30%;
+}
+address{
+  margin: 10px;
+}
+.phone,
+.mail{
+  margin: 10px;
+}
+.social{
+  position: relative;
+  margin: 10px;
+  padding: 5px;
+}
+.copywrite{
+display: flex;
+text-transform: capitalize;
+flex-direction: row;
+justify-content: space-around;
+ padding: 10px;
+ text-align: center;
+}
+.copywrite p{
+  margin: 5px;
+}
+.terms a{
+  color: #fff;
+  text-decoration: none;
+  margin: 10px;
+}
+.terms a:hover{
+  color: var(--big-text-color);
 }
 hr{
-  border: 3px solid ;
-  background-color: #fff;
+  border: 1px solid #ccc ;
+  background-color: #ccc;
 }
