@@ -559,19 +559,20 @@ div span{
   font-weight: 600;
   font-size: 1.1em;
   text-align: center;
+  padding: 8px;
 }
 .expert{
   display: flex;
   position: relative;
   flex-direction: row;
   gap: 10px;
-  margin: 10px;
+  margin-inline: auto;
   width: 60%;
   background-color: var(--big-text-color);
   justify-content: center;
   align-items: baseline;
   padding: 15px;
-  margin-left: 8em;
+  /* margin-left: 8em; */
   border-radius: 8px;
 }
 input:checked{
